@@ -5,7 +5,7 @@
 
 resource "azurerm_resource_group" "group" {
   name     = "example-resources"
-  location = "West Europe"
+  location = "North Europe"
 }
 
 resource "azurerm_service_plan" "plan" {
