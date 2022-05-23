@@ -13,7 +13,7 @@ resource "azurerm_service_plan" "plan" {
   resource_group_name = azurerm_resource_group.group.name
   location            = azurerm_resource_group.group.location
   os_type             = "Linux"
-  sku_name            = "P1v2"
+  sku_name            = "FREE"
 }
 
 resource "azurerm_linux_web_app" "app" {
