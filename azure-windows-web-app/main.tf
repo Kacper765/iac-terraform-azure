@@ -12,7 +12,7 @@ resource "azurerm_service_plan" "plan" {
   name                = "example"
   resource_group_name = azurerm_resource_group.group.name
   location            = azurerm_resource_group.group.location
-  sku_name            = "P1v2"
+  sku_name            = "FREE"
 }
 
 resource "azurerm_windows_web_app" "app" {
